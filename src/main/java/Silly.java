@@ -165,9 +165,6 @@ public class Silly implements Comparable<Silly>{
         if (this == o){
             return true;
         }
-        if (o == null) {
-            return false;
-        }
 
         Silly other = (Silly) o; // To access .name of o, we need to cast it.
 
